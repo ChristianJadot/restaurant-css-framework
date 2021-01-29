@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 * {
     box-sizing: border-box;
   }
@@ -8,6 +11,7 @@ html body {
     height: 100vh;
     padding: 0;
     background-color: #ebebeb;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 /*.container {
@@ -19,6 +23,9 @@ header {
     color: black;
     padding: 20px 0;
     /*height: 100px;*/
+}
+h1, h2, h3 {
+    font-family: 'Fugaz One', cursive;
 }
 .logo {
     width: 150px;
@@ -40,8 +47,8 @@ footer {
     background-color: black;
     color: white;
     padding: 20px 0;
-    /*position: fixed;*/
-    bottom: 0;
+    margin: 0;
+    max-width: 100%;
 }
 footer p, footer li {
     font-size: 0.8rem;
