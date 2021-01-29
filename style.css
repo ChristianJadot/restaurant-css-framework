@@ -12,11 +12,12 @@ html body {
     padding: 0;
     background-color: #ebebeb;
     font-family: 'Rajdhani', sans-serif;
+    font-size: 100%;
 }
 
-/*.container {
-    width: 80vw;
-}*/
+.container {
+    background-color: white;
+}
 
 header {
     background-color: white;
@@ -33,6 +34,17 @@ h1, h2, h3 {
 nav ul li {
     list-style-type: none;
 }
+a.nav-link {
+    color: black;
+    font-size: 1.2rem;
+}
+a.active {
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    height: auto;
+}
 .imgh {
     height: 100%;
 }
@@ -46,13 +58,28 @@ nav ul li {
 footer {
     background-color: black;
     color: white;
-    padding: 20px 0;
+    padding: 20px 10px 5px;
     margin: 0;
     max-width: 100%;
 }
-footer p, footer li {
+footer p, footer li, footer a.nav-link, address,.copy {
     font-size: 0.8rem;
 }
-footer a.nav-footer {
+footer .copy {
+    text-decoration: overline white;
+}
+footer ul li {
+    list-style-type: none;
+    margin: 0;
+}
+footer a.nav-link, footer address .email, footer address .tel {
     color: white;
+}
+footer a.nav-link {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    html {font-size: 80%;}
 }
