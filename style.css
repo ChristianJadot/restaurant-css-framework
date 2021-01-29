@@ -84,6 +84,8 @@ footer a.nav-link {
 }
 
 @media screen and (max-width: 600px) {
-    html {font-size: 80%;}
+    html {font-size: 85%;}
     .logo {width: 100%}
+    header .logo {width: 70%}
+    ul li a.nav-link {padding-left: 0;}
 }
