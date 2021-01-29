@@ -1,0 +1,36 @@
+html body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 100vw;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    /*height: 100px;*/
+}
+.logo {
+    width: 150px;
+}
+nav ul li {
+    list-style-type: none;
+}
+
+main {
+    height: 100vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+}
