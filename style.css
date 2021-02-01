@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+html body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-color: #ebebeb;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    /*height: 100px;*/
+}
+    h1, h2, h3 {
+        font-family: 'Fugaz One', cursive;
+    }
+    .logo {
+        width: 150px;
+    }
+    nav ul li {
+        list-style-type: none;
+    }
+    a.nav-link {
+        color: black;
+        font-size: 1.2rem;
+    }
+    a.active {
+        font-weight: bold;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .imgh {
+        height: 100%;
+    }
+    .imgw {
+        width: 100%;
+    }
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 10px 5px;
+    margin: 0;
+    max-width: 100%;
+}
+    footer h6 {
+        color: #7c7c7c;
+    }
+    footer p, footer li, footer a.nav-link, address,.copy {
+        font-size: 0.8rem;
+    }
+    footer .copy {
+        text-decoration: overline white;
+    }
+    footer ul li {
+        list-style-type: none;
+        margin: 0;
+    }
+    footer a.nav-link, footer address .email, footer address .tel {
+        color: white;
+    }
+    footer a.nav-link {
+        padding: 0;
+        margin: 0;
+    }
+
+@media screen and (max-width: 600px) {
+    html {font-size: 85%;}
+    .logo {width: 100%}
+    header .logo {width: 70%}
+    ul li a.nav-link {padding-left: 0;}
+}
