@@ -81,6 +81,18 @@ main {
     padding: 10px;
     border-bottom: 1px dashed #ebebeb;
     }
+    form em {
+        font-size: 0.8rem;
+    }
+    form label {
+        margin-bottom: .1rem;
+    }
+    .horaire {
+        font-size: 0.8rem;
+    }
+    main address .email, main address .tel {
+        color: black;
+    }
 
     /** image hover effect **/
     .margin30 {
@@ -181,4 +193,7 @@ footer {
     .logo {max-width: 100%}
     header .logo {max-width: 70%}
     ul li a.nav-link {padding-left: 0;}
+    .asidehide {
+        display: none;
+    }
 }
